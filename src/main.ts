@@ -1,7 +1,7 @@
+
+import { BrowserModule } from '@angular/platform-browser';
+import { AppModule } from './app/app-module';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app/app.module';
-
-
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+// Demarre l'application (ecouteur d'evenement des class et otut etc...) voir la doc 
+platformBrowserDynamic().bootstrapModule(AppModule);
